@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-google-maps-library",
+    "name": "Jonaslinderoth/yii2-google-maps-library",
     "description": "Google Maps API library for Yii2.",
     "keywords": [
         "yii",
@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\google\\maps\\": ""
+            "Jonaslinderoth\\google\\maps\\": ""
         }
     },
     "config": {
