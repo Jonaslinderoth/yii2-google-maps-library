@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 /**
  * EventType
@@ -18,7 +18,7 @@ namespace dosamigos\google\maps;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class EventType
 {

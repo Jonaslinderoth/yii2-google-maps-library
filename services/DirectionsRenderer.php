@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\ObjectAbstract;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
 
@@ -25,7 +25,7 @@ use yii\web\JsExpression;
  * @property boolean $hideRouteList This property indicates whether the renderer should provide UI to select amongst
  * alternative routes. By default, this flag is false and a user-selectable list of routes will be shown in the
  * directions' associated panel. To hide that list, set hideRouteList to true.
- * @property\dosamigos\google\maps\overlays\InfoWindow infoWindow The InfoWindow in which to render text information when a marker is clicked.
+ * @property\jonaslinderoth\google\maps\overlays\InfoWindow infoWindow The InfoWindow in which to render text information when a marker is clicked.
  * Existing info window content will be overwritten and its position moved. If no info window is specified, the
  * DirectionsRenderer will create and use its own info window. This property will be ignored if suppressInfoWindows
  * is set to true.
@@ -49,7 +49,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class DirectionsRenderer extends ObjectAbstract
 {

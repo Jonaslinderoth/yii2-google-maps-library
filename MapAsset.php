@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -26,7 +26,7 @@ use yii\web\AssetBundle;
  *      'components' => [
  *          'assetManager' => [
  *              'bundles' => [
- *                  'dosamigos\google\maps\MapAsset' => [
+ *                  'jonaslinderoth\google\maps\MapAsset' => [
  *                      'options' => [
  *                          'key' => 'this_is_my_key',
  *                          'language' => 'id',
@@ -40,7 +40,7 @@ use yii\web\AssetBundle;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class MapAsset extends AssetBundle
 {

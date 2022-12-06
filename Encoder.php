@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 /**
  * Encoder
@@ -19,7 +19,7 @@ namespace dosamigos\google\maps;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class Encoder
 {
@@ -52,9 +52,9 @@ class Encoder
     }
 
     /**
-     * Generates all values needed for the encoded Google Maps [\dosamigos\google\maps\overlays\Polyline].
+     * Generates all values needed for the encoded Google Maps [\jonaslinderoth\google\maps\overlays\Polyline].
      *
-     * @param array $points Multidimensional input array of [\dosamigos\google\maps\Point] elements
+     * @param array $points Multidimensional input array of [\jonaslinderoth\google\maps\Point] elements
      *
      * @return stdClass    Simple object containing three public parameter:
      *                    - points: the points string with escaped backslashes

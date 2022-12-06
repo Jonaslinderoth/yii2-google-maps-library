@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
-use dosamigos\google\maps\overlays\Marker;
+use jonaslinderoth\google\maps\overlays\Marker;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -84,7 +84,7 @@ use yii\web\View;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class Map extends ObjectAbstract
 {
@@ -403,7 +403,7 @@ class Map extends ObjectAbstract
         }
 
         foreach ($this->getPlugins()->getInstalledPlugins() as $plugin) {
-            /** @var \dosamigos\google\maps\PluginAbstract $plugin */
+            /** @var \jonaslinderoth\google\maps\PluginAbstract $plugin */
             $plugin->map = $this->getName();
             $js[] = $plugin->getJs($name);
         }

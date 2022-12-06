@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -22,7 +22,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class InfoWindow extends InfoWindowOptions
 {
@@ -47,7 +47,7 @@ class InfoWindow extends InfoWindowOptions
         $js[] = "var {$this->getName()} = new google.maps.InfoWindow({$this->getEncodedOptions()});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \jonaslinderoth\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

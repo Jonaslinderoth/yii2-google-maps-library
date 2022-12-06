@@ -43,18 +43,18 @@ usage:
 
 ## Service
 ```php
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\services\DirectionsWayPoint;
-use dosamigos\google\maps\services\TravelMode;
-use dosamigos\google\maps\overlays\PolylineOptions;
-use dosamigos\google\maps\services\DirectionsRenderer;
-use dosamigos\google\maps\services\DirectionsService;
-use dosamigos\google\maps\overlays\InfoWindow;
-use dosamigos\google\maps\overlays\Marker;
-use dosamigos\google\maps\Map;
-use dosamigos\google\maps\services\DirectionsRequest;
-use dosamigos\google\maps\overlays\Polygon;
-use dosamigos\google\maps\layers\BicyclingLayer;
+use jonaslinderoth\google\maps\LatLng;
+use jonaslinderoth\google\maps\services\DirectionsWayPoint;
+use jonaslinderoth\google\maps\services\TravelMode;
+use jonaslinderoth\google\maps\overlays\PolylineOptions;
+use jonaslinderoth\google\maps\services\DirectionsRenderer;
+use jonaslinderoth\google\maps\services\DirectionsService;
+use jonaslinderoth\google\maps\overlays\InfoWindow;
+use jonaslinderoth\google\maps\overlays\Marker;
+use jonaslinderoth\google\maps\Map;
+use jonaslinderoth\google\maps\services\DirectionsRequest;
+use jonaslinderoth\google\maps\overlays\Polygon;
+use jonaslinderoth\google\maps\layers\BicyclingLayer;
 
 $coord = new LatLng(['lat' => 39.720089311812094, 'lng' => 2.91165944519042]);
 $map = new Map([
@@ -149,7 +149,7 @@ echo $map->display();
 
 ## Client
 ```php
-use dosamigos\google\maps\services\DirectionsClient;
+use jonaslinderoth\google\maps\services\DirectionsClient;
 
 $direction = new DirectionsClient([
     'params' => [
@@ -173,7 +173,7 @@ To configure the Google Map key or other options like language, version, library
 'components' => [
     'assetManager' => [
         'bundles' => [
-            'dosamigos\google\maps\MapAsset' => [
+            'jonaslinderoth\google\maps\MapAsset' => [
                 'options' => [
                     'key' => 'this_is_my_key',
                     'language' => 'id',

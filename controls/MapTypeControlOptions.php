@@ -8,11 +8,11 @@
  *
  */
 
-namespace dosamigos\google\maps\controls;
+namespace jonaslinderoth\google\maps\controls;
 
-use dosamigos\google\maps\MapTypeId;
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\MapTypeId;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
@@ -26,9 +26,9 @@ use yii\web\JsExpression;
  * [documentation](https://developers.google.com/maps/documentation/javascript/reference#MapTypeControlOptions) at Google.
  *
  * ```
- * use dosamigos\google\maps\controls\MapTypeControlOptions;
- * use dosamigos\google\maps\controls\MapTypeControlStyle;
- * use dosamigos\google\maps\Map;
+ * use jonaslinderoth\google\maps\controls\MapTypeControlOptions;
+ * use jonaslinderoth\google\maps\controls\MapTypeControlStyle;
+ * use jonaslinderoth\google\maps\Map;
  *
  * $options = new MapTypeControlOptions(['style' => MapTypeControlStyle::DROPDOWN_MENU]);
  *
@@ -44,7 +44,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\controls
+ * @package jonaslinderoth\google\maps\controls
  */
 class MapTypeControlOptions extends ObjectAbstract
 {

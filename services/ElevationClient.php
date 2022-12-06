@@ -8,10 +8,10 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\ClientAbstract;
-use dosamigos\google\maps\Encoder;
+use jonaslinderoth\google\maps\ClientAbstract;
+use jonaslinderoth\google\maps\Encoder;
 use Yii;
 use yii\helpers\ArrayHelper;
 
@@ -24,7 +24,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class ElevationClient extends ClientAbstract
 {
@@ -57,7 +57,7 @@ class ElevationClient extends ClientAbstract
     /**
      * Makes elevation request by locations
      *
-     * @param \dosamigos\google\maps\LatLng[] $coords
+     * @param \jonaslinderoth\google\maps\LatLng[] $coords
      * @param bool $encode
      *
      * @return mixed|null
@@ -74,7 +74,7 @@ class ElevationClient extends ClientAbstract
     /**
      * Makes elevation request by paths
      *
-     * @param \dosamigos\google\maps\LatLng[] $coords defines a path on the earth for which to return elevation data.
+     * @param \jonaslinderoth\google\maps\LatLng[] $coords defines a path on the earth for which to return elevation data.
      * @param int $samples specifies the number of sample points along a path for which to return the elevation data.
      * @param bool $encode
      *

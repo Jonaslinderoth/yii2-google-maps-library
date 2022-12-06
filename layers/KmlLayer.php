@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\layers;
+namespace jonaslinderoth\google\maps\layers;
 
 use yii\base\InvalidConfigException;
 
@@ -25,7 +25,7 @@ use yii\base\InvalidConfigException;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\layers
+ * @package jonaslinderoth\google\maps\layers
  */
 class KmlLayer extends KmlLayerOptions
 {

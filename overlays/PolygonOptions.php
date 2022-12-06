@@ -8,11 +8,11 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\LatLng;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
 
@@ -50,7 +50,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class PolygonOptions extends ObjectAbstract
 {

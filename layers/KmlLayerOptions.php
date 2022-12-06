@@ -8,10 +8,10 @@
  *
  */
 
-namespace dosamigos\google\maps\layers;
+namespace jonaslinderoth\google\maps\layers;
 
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
 
@@ -33,7 +33,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\layers
+ * @package jonaslinderoth\google\maps\layers
  */
 class KmlLayerOptions extends ObjectAbstract
 {

@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 use yii\base\InvalidParamException;
 
@@ -20,7 +20,7 @@ use yii\base\InvalidParamException;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class LatLng extends ObjectAbstract
 {

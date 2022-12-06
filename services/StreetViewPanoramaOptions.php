@@ -8,12 +8,12 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\controls\PanControlOptions;
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\controls\PanControlOptions;
+use jonaslinderoth\google\maps\LatLng;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -33,7 +33,7 @@ use yii\helpers\ArrayHelper;
  * @property boolean $panControl The enabled/disabled state of the pan control.
  * @property PanControlOptions $panControlOptions The display options for the pan control.
  * @property string $pano The panorama ID, which should be set when specifying a custom panorama.
- * @property [\dosamigos\google\maps\LatLng]|[\dosamigos\google\maps\LatLngLiteral] $position The LatLng position of the
+ * @property [\jonaslinderoth\google\maps\LatLng]|[\jonaslinderoth\google\maps\LatLngLiteral] $position The LatLng position of the
  * Street View panorama.
  * @property [StreetViewPov] $pov The camera orientation, specified as heading and pitch, for the panorama.
  * @property boolean $scrollwheel If false, disables scrollwheel zooming in Street View. The scrollwheel is enabled by default.
@@ -44,7 +44,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\services
+ * @package jonaslinderoth\google\maps\services
  */
 class StreetViewPanoramaOptions extends ObjectAbstract
 {

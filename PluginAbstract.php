@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 use yii\web\JsExpression;
 
@@ -20,7 +20,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 abstract class PluginAbstract extends ObjectAbstract
 {

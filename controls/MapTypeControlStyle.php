@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\controls;
+namespace jonaslinderoth\google\maps\controls;
 
 /**
  * MapTypeControlStyle
@@ -19,9 +19,9 @@ namespace dosamigos\google\maps\controls;
  * [documentation](https://developers.google.com/maps/documentation/javascript/reference#MapTypeControlStyle) at Google.
  *
  * ```
- * use dosamigos\google\maps\controls\MapTypeControlOptions;
- * use dosamigos\google\maps\controls\MapTypeControlStyle;
- * use dosamigos\google\maps\Map;
+ * use jonaslinderoth\google\maps\controls\MapTypeControlOptions;
+ * use jonaslinderoth\google\maps\controls\MapTypeControlStyle;
+ * use jonaslinderoth\google\maps\Map;
  *
  * $options = new MapTypeControlOptions(['style' => MapTypeControlStyle::DROPDOWN_MENU]);
  *
@@ -31,7 +31,7 @@ namespace dosamigos\google\maps\controls;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\controls
+ * @package jonaslinderoth\google\maps\controls
  */
 class MapTypeControlStyle
 {

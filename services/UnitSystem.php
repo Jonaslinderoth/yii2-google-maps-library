@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
 /**
  * UnitSystem
@@ -18,7 +18,7 @@ namespace dosamigos\google\maps\services;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\services
+ * @package jonaslinderoth\google\maps\services
  */
 class UnitSystem
 {

@@ -8,12 +8,12 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
-use dosamigos\google\maps\Size;
+use jonaslinderoth\google\maps\LatLng;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\Size;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
 
@@ -33,7 +33,7 @@ use yii\web\JsExpression;
  * @property Size $pixelOffset The offset, in pixels, of the tip of the info window from the point on the map at whose
  * geographical coordinates the info window is anchored. If an InfoWindow is opened with an anchor, the pixelOffset
  * will be calculated from the anchor's anchorPoint property.+
- * @property [\dosamigos\google\maps\LatLng]|[\dosamigos\google\maps\LatLngLiteral] $position The LatLng at which to display
+ * @property [\jonaslinderoth\google\maps\LatLng]|[\jonaslinderoth\google\maps\LatLngLiteral] $position The LatLng at which to display
  * this InfoWindow. If the InfoWindow is opened
  * with an anchor, the anchor's position will be used instead.
  * @property int $zIndex All InfoWindows are displayed on the map in order of their zIndex, with higher values displaying
@@ -44,7 +44,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class InfoWindowOptions extends ObjectAbstract
 {

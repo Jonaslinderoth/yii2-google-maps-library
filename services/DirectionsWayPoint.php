@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\ObjectAbstract;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -21,7 +21,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class DirectionsWayPoint extends ObjectAbstract
 {
@@ -36,7 +36,7 @@ class DirectionsWayPoint extends ObjectAbstract
 
     /**
      * Returns the location of the direction way point
-     * @return \dosamigos\google\maps\LatLng|string
+     * @return \jonaslinderoth\google\maps\LatLng|string
      */
     public function getLocation()
     {

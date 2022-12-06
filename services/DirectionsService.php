@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\ObjectAbstract;
 use yii\base\InvalidConfigException;
 
 /**
@@ -21,7 +21,7 @@ use yii\base\InvalidConfigException;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class DirectionsService extends ObjectAbstract
 {

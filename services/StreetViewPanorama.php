@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\LatLng;
+use jonaslinderoth\google\maps\LatLng;
 use yii\base\InvalidConfigException;
 
 /**
@@ -22,7 +22,7 @@ use yii\base\InvalidConfigException;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class StreetViewPanorama extends StreetViewPanoramaOptions
 {
@@ -65,7 +65,7 @@ class StreetViewPanorama extends StreetViewPanoramaOptions
             "new google.maps.StreetViewPanorama(document.getElementById('{$this->nodeId}'),{$this->getEncodedOptions()});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \jonaslinderoth\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

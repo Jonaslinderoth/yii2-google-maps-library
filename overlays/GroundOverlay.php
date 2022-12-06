@@ -8,10 +8,10 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
-use dosamigos\google\maps\LatLngBounds;
-use dosamigos\google\maps\OverlayTrait;
+use jonaslinderoth\google\maps\LatLngBounds;
+use jonaslinderoth\google\maps\OverlayTrait;
 use yii\base\InvalidConfigException;
 
 /**
@@ -22,7 +22,7 @@ use yii\base\InvalidConfigException;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class GroundOverlay extends CircleOptions
 {
@@ -78,7 +78,7 @@ class GroundOverlay extends CircleOptions
         $js[] = "var {$this->getName()} = new google.maps.GroundOverlay('{$this->url}',{$bounds}, {$options});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \jonaslinderoth\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

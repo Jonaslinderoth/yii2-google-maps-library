@@ -8,9 +8,9 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
-use dosamigos\google\maps\OverlayTrait;
+use jonaslinderoth\google\maps\OverlayTrait;
 use yii\base\InvalidConfigException;
 
 /**
@@ -21,7 +21,7 @@ use yii\base\InvalidConfigException;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class Circle extends CircleOptions
 {
@@ -40,7 +40,7 @@ class Circle extends CircleOptions
 
     /**
      * Returns the center of bounds
-     * @return \dosamigos\google\maps\LatLng
+     * @return \jonaslinderoth\google\maps\LatLng
      */
     public function getCenterOfBounds()
     {
@@ -58,7 +58,7 @@ class Circle extends CircleOptions
         $js[] = "var {$this->getName()} = new google.maps.Circle({$this->getEncodedOptions()});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \jonaslinderoth\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

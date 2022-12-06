@@ -8,10 +8,10 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
-use dosamigos\google\maps\overlays\Marker;
-use dosamigos\google\maps\overlays\Polygon;
+use jonaslinderoth\google\maps\overlays\Marker;
+use jonaslinderoth\google\maps\overlays\Polygon;
 use yii\base\BaseObject;
 use yii\base\InvalidParamException;
 use yii\helpers\ArrayHelper;
@@ -24,7 +24,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class LatLngBounds extends BaseObject
 {

@@ -10,8 +10,8 @@
 
 namespace extensions\google\controls\maps;
 
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use jonaslinderoth\google\maps\ObjectAbstract;
+use jonaslinderoth\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 
 /**

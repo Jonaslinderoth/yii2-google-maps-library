@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
 /**
  * StrokePosition
@@ -18,7 +18,7 @@ namespace dosamigos\google\maps\overlays;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\overlays
+ * @package jonaslinderoth\google\maps\overlays
  */
 class StrokePosition
 {

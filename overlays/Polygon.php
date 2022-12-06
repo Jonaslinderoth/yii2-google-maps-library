@@ -8,11 +8,11 @@
  *
  */
 
-namespace dosamigos\google\maps\overlays;
+namespace jonaslinderoth\google\maps\overlays;
 
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\LatLngBounds;
-use dosamigos\google\maps\OverlayTrait;
+use jonaslinderoth\google\maps\LatLng;
+use jonaslinderoth\google\maps\LatLngBounds;
+use jonaslinderoth\google\maps\OverlayTrait;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -24,7 +24,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class Polygon extends PolygonOptions
 {
@@ -43,7 +43,7 @@ class Polygon extends PolygonOptions
 
     /**
      * Returns the center coordinates of paths
-     * @return \dosamigos\google\maps\LatLng|null
+     * @return \jonaslinderoth\google\maps\LatLng|null
      */
     public function getCenterOfPaths()
     {
@@ -56,7 +56,7 @@ class Polygon extends PolygonOptions
 
     /**
      * Returns the center of bounds
-     * @return \dosamigos\google\maps\LatLng
+     * @return \jonaslinderoth\google\maps\LatLng
      */
     public function getCenterOfBounds()
     {
@@ -74,7 +74,7 @@ class Polygon extends PolygonOptions
         $js[] = "var {$this->getName()} = new google.maps.Polygon({$this->getEncodedOptions()});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \jonaslinderoth\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

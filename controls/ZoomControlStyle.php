@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps\controls;
+namespace jonaslinderoth\google\maps\controls;
 
 /**
  * ZoomControlStyle
@@ -22,7 +22,7 @@ namespace dosamigos\google\maps\controls;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\controls
+ * @package jonaslinderoth\google\maps\controls
  */
 class ZoomControlStyle
 {

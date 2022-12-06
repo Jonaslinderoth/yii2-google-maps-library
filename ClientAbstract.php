@@ -8,7 +8,7 @@
  *
  */
 
-namespace dosamigos\google\maps;
+namespace jonaslinderoth\google\maps;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;
@@ -24,7 +24,7 @@ use yii\base\BaseObject;
  * @author Antonio Ramirez <hola@2amigos.us>
  *
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 abstract class ClientAbstract extends BaseObject
 {

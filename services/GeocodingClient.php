@@ -8,10 +8,10 @@
  *
  */
 
-namespace dosamigos\google\maps\services;
+namespace jonaslinderoth\google\maps\services;
 
-use dosamigos\google\maps\ClientAbstract;
-use dosamigos\google\maps\LatLng;
+use jonaslinderoth\google\maps\ClientAbstract;
+use jonaslinderoth\google\maps\LatLng;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -25,7 +25,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <hola@2amigos.us>
  * 
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package jonaslinderoth\google\maps
  */
 class GeocodingClient extends ClientAbstract
 {
